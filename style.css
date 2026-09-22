@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "AttendanceFont";
+    src: url("augiepixel.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #eee9df;
+    color: #252525;
+    font-family: "AttendanceFont", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+.small-text {
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 32px;
+    color: #77736b;
+}
+
+h1 {
+    font-size: clamp(60px, 10vw, 110px);
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+
+.subtext {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #77736b;
+    letter-spacing: 3px;
+}
