@@ -7,16 +7,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <div class="school-name">KISARAGI ACADEMY</div>
-            <div class="portal-name">CLASSROOM 2-B</div>
-        </header>
         <main>
             <section class="welcome">
                 <p class="tiny">SEPTEMBER 22, 2011</p>
                 <h1>Good morning.</h1>
                 <p>Please remain in your assigned seat until attendance is complete.</p>
             </section>
+            <section class="classroom">
+                <p class="desk-label">
+                    CLASS 2-B - SEATING ARRANGEMENT
+                </p>
+                <div class="desk-area" id="deskArea">
+                    <div class="desk-row">
+                        <button class="desk" type="button">01</button>
+                        <button class="desk" type="button">02</button>
+                        <button class="desk" type="button">03</button>
+                    </div>
+                    <div class="desk-row">
+                        <button class="desk" type="button">04</button>
+                        <button class="desk" type="button" id="desk05">05</button>
+                    </div>
+                </div>
+            </section>
+            <p class="interaction" id="instruction">
+                DO NOT MOVE THE CURSOR OFF THE DESKS.
+            </p>
+            <p class="message" id="message"></p>
         </main>
     </body>
 </html>

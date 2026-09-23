@@ -71,9 +71,7 @@ h1 {
 }
 
 .classroom {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+    margin-top: 65px;
 }
 
 .classroom header {
@@ -113,4 +111,71 @@ h1 {
     font-size: 12px;
     letter-spacing: 3px;
     color: #77736b;
+}
+
+.desk-label {
+    margin-bottom: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #77736b;
+}
+
+.desk-area {
+    width: 620px;
+    max-width: 100%;
+    margin-left: 5px;
+    padding: 35px 25px;
+    border: 1px solid #aaa49a;
+    background: #e5e0d6;
+}
+
+.desk-row {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 22px;
+}
+
+.desk-row:last-child {
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+
+.desk {
+    width: 105px;
+    height: 58px;
+    border: 1px solid #77736b;
+    border-radius: 0;
+    background: #eee9df;
+    color: #55514b;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.desk:hover {
+    background: #e1dcd2;
+}
+
+.desk.occupied {
+    background: #252525;
+    color: #eee9df;
+    border-color: #252525;
+}
+
+.interaction {
+    margin-top: 22px;
+    margin-left: 5px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #77736b;
+}
+
+.message {
+    min-height: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #55514b;
 }
