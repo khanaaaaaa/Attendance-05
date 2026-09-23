@@ -49,3 +49,68 @@ h1 {
     color: #77736b;
     letter-spacing: 3px;
 }
+
+.enter-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 14px 40px;
+    border: 1px solid #77736b;
+    background: transparent;
+    color: #252525;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity 1s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.enter-button:hover {
+    background: #252525;
+    color: #eee9df;
+}
+
+.classroom {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.classroom header {
+    padding: 45px 0 25px;
+    border-bottom: 1px solid #aaa49a;
+}
+
+.welcome {
+    padding: 65px 0 40px;
+}
+
+.welcome .tiny {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #8a857d;
+    margin-bottom: 18px;
+}
+
+.welcome h1 {
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.welcome p:last-child {
+    color: #77736b;
+    font-size: 14px;
+}
+
+.classroom .school-name {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.classroom .portal-name {
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #77736b;
+}

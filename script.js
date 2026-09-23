@@ -38,6 +38,4 @@ function typeSubtitle() {
     }
 }
 
-document.getElementById("enter").style.opacity = "0";
-
 typeTitle();
