@@ -19,6 +19,11 @@ body {
     justify-content: center;
 }
 
+.enter-button {
+    opacity: 0;
+    transition: 1s;
+}
+
 .intro {
     text-align: center;
     width: 90%;
