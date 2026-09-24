@@ -7,32 +7,55 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main>
-            <section class="welcome">
-                <p class="tiny">SEPTEMBER 22, 2011</p>
-                <h1>Good morning.</h1>
-                <p>Please remain in your assigned seat until attendance is complete.</p>
-            </section>
-            <section class="classroom">
-                <p class="desk-label">
-                    CLASS 2-B - SEATING ARRANGEMENT
-                </p>
-                <div class="desk-area" id="deskArea">
+        <main class="classroom">
+            <header>
+                <div class="school-name">KISARAGI ACADEMY</div>
+                <div class="portal-name">CLASSROOM 2-B</div>
+            </header>
+            <section class="classroom-scene">
+                <div class="blackboard">
+                    <p>KISARAGI ACADEMY</p>
+                    <span>SEPTEMBER 22, 2011</span>
+                </div>
+                <div class="teacher">
+                    <p>MS. KURODA</p>
+                </div>
+                <div class="desks">
                     <div class="desk-row">
-                        <button class="desk" type="button">01</button>
-                        <button class="desk" type="button">02</button>
-                        <button class="desk" type="button">03</button>
+                        <div class="deak">
+                            <span>01</span>
+                        </div>
+                        <div class="desk">
+                            <span>02</span>
+                        </div>
+                        <div class="desk">
+                            <span>03</span>
+                        </div>
                     </div>
                     <div class="desk-row">
-                        <button class="desk" type="button">04</button>
-                        <button class="desk" type="button" id="desk05">05</button>
+                        <div class="desk">
+                            <span>04</span>
+                        </div>
+                        <div class="desk" id="desk05">
+                            <span>05</span>
+                        </div>
                     </div>
                 </div>
             </section>
-            <p class="interaction" id="instruction">
-                DO NOT MOVE THE CURSOR OFF THE DESKS.
-            </p>
-            <p class="message" id="message"></p>
+            <section class="dialogue">
+                <div class="speaker" id="speaker">
+                    MS. KURODA
+                </div>
+                <p id="dialogueText">
+                    Good morning, everyone.
+                </p>
+                <button id="continueButton" type="button">
+                    CONTINUE
+                </button>
+            </section>
+            <p class="interaction" id="instruction"></p>
+            <p class="messsage" id="message"></p>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
